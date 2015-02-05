@@ -47,9 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CommandPanel.cs" />
+     <Compile Include="Assets\Scripts\MinCombat.cs" />
      <Compile Include="Assets\Scripts\MinMovement.cs" />
      <Compile Include="Assets\Scripts\MinNatural.cs" />
+     <Compile Include="Assets\Scripts\MinionAttack.cs" />
+     <Compile Include="Assets\Scripts\MinionStats.cs" />
      <Compile Include="Assets\Scripts\ShowCommandPanel.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Robert/Desktop/GitHub/Behemoth-Lords/Working/Behemoth-Lords Project Folder/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

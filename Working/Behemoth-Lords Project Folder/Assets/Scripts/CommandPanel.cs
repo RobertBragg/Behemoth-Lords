@@ -8,7 +8,7 @@ public class CommandPanel : MonoBehaviour {
 	public AudioClip AudioHoldCommand;
 	// Use this for initialization
 	void Awake () {
-		minions = GameObject.FindGameObjectsWithTag("Minions");
+		minions = GameObject.FindGameObjectsWithTag("Allied-Minions");
 	}
 	
 	// Update is called once per frame
@@ -16,6 +16,9 @@ public class CommandPanel : MonoBehaviour {
 		if(Input.GetButtonDown("MinAttack"))
 		{
 			audio.PlayOneShot(AudioAttackCommand);
+
+
+
 			foreach(GameObject min in minions)
 			{
 				min.GetComponent<MinMovement>().MoveTypeAttack();

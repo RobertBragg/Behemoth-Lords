@@ -1,12 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MinionStats.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js">
     <Files>
-      <File FileName="Assets\Scripts\CommandPanel.cs" Line="24" Column="54" />
-      <File FileName="Assets\Scripts\MinMovement.cs" Line="37" Column="78" />
-      <File FileName="Assets\Scripts\MinNatural.cs" Line="5" Column="21" />
-      <File FileName="Assets\Scripts\ShowCommandPanel.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MinionStats.cs" Line="5" Column="8" />
+      <File FileName="Assets\Scripts\CommandPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MinMovement.cs" Line="71" Column="5" />
+      <File FileName="Assets\Scripts\MinNatural.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShowCommandPanel.cs" Line="16" Column="42" />
+      <File FileName="Assets\Scripts\MinionStats.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerAttacks.cs" Line="42" Column="43" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="129" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" Line="47" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

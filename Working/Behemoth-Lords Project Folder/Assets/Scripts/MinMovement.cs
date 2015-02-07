@@ -68,7 +68,7 @@ public class MinMovement : MinNatural {
 			}
 			if (mType == MoveType.HOLD)
 			{
-				transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(leader.transform.position - transform.position), rotationSpeed*Time.deltaTime);
+
 			}
 		}
 	}

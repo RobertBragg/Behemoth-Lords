@@ -55,7 +55,6 @@ public class MinMovement : MinNatural {
 
 			if(mType == MoveType.FOLLOW)
 			{
-				Debug.Log (leader.name);
 				leadPos = leader.transform;
 				leadPos.position.Set(leader.transform.position.x, transform.position.y, leader.transform.position.z);
 

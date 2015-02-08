@@ -17,10 +17,7 @@ public class MinionStats : MonoBehaviour {
 	public void Damage(int damage)
 	{
 		health -= damage;
-		Debug.Log("health");
-		Debug.Log(health);
-		Debug.Log("Damage");
-		Debug.Log(damage);
+
 		if(health < 1)
 		{
 			Dead();
@@ -29,7 +26,7 @@ public class MinionStats : MonoBehaviour {
 
 	void Dead()
 	{
-		Debug.Log("dead");
+
 		Destroy(gameObject);
 	}
 }

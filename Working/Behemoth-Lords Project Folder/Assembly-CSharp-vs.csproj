@@ -47,14 +47,24 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\InvertedSphere.cs" />
-     <Compile Include="Assets\Scripts\CommandPanel.cs" />
-     <Compile Include="Assets\Scripts\MinCombat.cs" />
-     <Compile Include="Assets\Scripts\MinMovement.cs" />
-     <Compile Include="Assets\Scripts\MinNatural.cs" />
-     <Compile Include="Assets\Scripts\MinionAttack.cs" />
-     <Compile Include="Assets\Scripts\MinionStats.cs" />
-     <Compile Include="Assets\Scripts\PlayerAttacks.cs" />
-     <Compile Include="Assets\Scripts\ShowCommandPanel.cs" />
+     <Compile Include="Assets\Scripts\Minion\MinCombat.cs" />
+     <Compile Include="Assets\Scripts\Minion\MinMovement.cs" />
+     <Compile Include="Assets\Scripts\Minion\MinNatural.cs" />
+     <Compile Include="Assets\Scripts\Minion\MinionAttack.cs" />
+     <Compile Include="Assets\Scripts\Minion\MinionStats.cs" />
+     <Compile Include="Assets\Scripts\Player\Colossi\IceColossi.cs" />
+     <Compile Include="Assets\Scripts\Player\Colossi\MagmaColossi.cs" />
+     <Compile Include="Assets\Scripts\Player\Colossi\StoneColossi.cs" />
+     <Compile Include="Assets\Scripts\Player\CommandPanel.cs" />
+     <Compile Include="Assets\Scripts\Player\Dragon\GoldDragon.cs" />
+     <Compile Include="Assets\Scripts\Player\Dragon\OnyxDragon.cs" />
+     <Compile Include="Assets\Scripts\Player\Dragon\SilverDragon.cs" />
+     <Compile Include="Assets\Scripts\Player\Giant\FrostGiant.cs" />
+     <Compile Include="Assets\Scripts\Player\Giant\MountainGiant.cs" />
+     <Compile Include="Assets\Scripts\Player\Giant\StormGiant.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAttacks.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\Player\ShowCommandPanel.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />

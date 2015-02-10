@@ -39,8 +39,8 @@ public class PlayerAttacks : PlayerStats {
 					AOE.gameObject.SetActive(true);
 					
 
-					AOE.localScale = Vector3.Slerp (AOE.localScale,  newRad * 2.5f, Time.deltaTime * 5);
-
+					AOE.localScale = Vector3.Slerp (AOE.localScale,  newRad * 2.55f, Time.deltaTime * 2);
+					AOE.RotateAround(transform.position, new Vector3(0,1,0), 25f);
 
 					if(AOE.localScale.x >= newRad.x * 2.2f)
 					{

@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\InvertedSphere.cs" />
      <Compile Include="Assets\Scripts\Minion\MinCombat.cs" />
      <Compile Include="Assets\Scripts\Minion\MinMovement.cs" />
      <Compile Include="Assets\Scripts\Minion\MinNatural.cs" />
@@ -59,6 +58,7 @@
      <Compile Include="Assets\Scripts\Player\Dragon\GoldDragon.cs" />
      <Compile Include="Assets\Scripts\Player\Dragon\OnyxDragon.cs" />
      <Compile Include="Assets\Scripts\Player\Dragon\SilverDragon.cs" />
+     <Compile Include="Assets\Scripts\Player\FlipNormals.cs" />
      <Compile Include="Assets\Scripts\Player\Giant\FrostGiant.cs" />
      <Compile Include="Assets\Scripts\Player\Giant\MountainGiant.cs" />
      <Compile Include="Assets\Scripts\Player\Giant\StormGiant.cs" />
